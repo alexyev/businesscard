@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter' sans-serif;
+}
+
+body {
+    background: #23252C;
+}
+
+.root{
+    background: #1A1B21;
+}
+
+.Info--image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+.Info--name {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-weight: 700px;
+    font-size: 25px;
+}
+
+.Info--description {
+    display: flex;
+    justify-content: center;
+    color: #F3BF99;
+    font-weight: 400px;
+    font-size: 12.8px;
+}
+
+.Info--website {
+    display: flex;
+    justify-content: center;
+    color: #F5F5F5;
+    font-size: 10.24px;
+}
+
+.Info--buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Info--linkedin-image {
+    height: 30px;
+}
+.Info--email-image {
+    height: 30px;
+}
+
+.Info--linkedin-button {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.Info--email-button {
+    
+}
+
+.About--main {
+    color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.About--title {
+    font-size: 16px;
+    font-weight: 700px
+}
+
+.About--main-text {
+    font-size: 10.24px;
+    font-weight: 400px;
+    color: #DCDCDC;
+}
+
+.Interests--main {
+    color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Interests--title {
+    font-size: 16px;
+    font-weight: 700px
+}
+
+.Interests--main-text {
+    font-size: 10.24px;
+    font-weight: 400px;
+    color: #DCDCDC;
+}
+
+.Footer--twitter-logo {
+    height: 30px;
+}
+
+.Footer--github-logo {
+    height: 30px;
+}
+
+.Footer--main {
+    background: #161619;    
+}
+
+.Footer--main > a {
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 30px;
+}
+
